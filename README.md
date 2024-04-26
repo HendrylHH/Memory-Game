@@ -8,10 +8,9 @@ Neste projeto, vamos criar um jogo da memória de forma simples e eficaz.
 
 ### `Requisitos`
 
-O projeto obrigatoriamente será realizado:
+O projeto será realizado com:
 
-+ React
-+ CSS 
++ React 
 
 E deverá realizar as funções básicas do jogo de memória:
 
@@ -32,4 +31,5 @@ E deverá realizar as funções básicas do jogo de memória:
 + Reorganizar o CSS, adicionando estilos diferentes, como efeitos nas cartas; 
 + Adicionar cartas diferentes, alterando o gênero; 
 + Fazer com que baralhe as cartas após a conclusão.
++ Utilizar Tailwind.
 
