@@ -1,4 +1,4 @@
-import Cartas from './Componentes/Cartas';
+import Cartas from './Componentes/Cartas.jsx';
 
 function App() {
   return <Cartas />;

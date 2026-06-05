@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import Carta from './Carta';
+import Carta from './Carta.jsx';
 
 const RECORDES_KEY = 'memory-game-best-scores';
 const HISTORICO_KEY = 'memory-game-attempt-history';

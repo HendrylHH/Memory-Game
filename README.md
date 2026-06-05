@@ -24,7 +24,7 @@ O jogo exibe cartas embaralhadas com o objetivo de encontrar todos os pares no m
 ## Tecnologias
 
 - React
-- Create React App
+- Vite
 - Tailwind CSS
 - LocalStorage
 
@@ -50,12 +50,11 @@ O app ficará disponível em `http://localhost:3000`.
 npm run build
 ```
 
-O comando gera a versão otimizada na pasta `build`.
+O comando gera a versão otimizada na pasta `dist`.
 
 ## Estrutura
 
-- `src/Componentes/Cartas.js`: controla o estado, as regras do jogo, dificuldade, tempo, recordes e ranking.
-- `src/Componentes/Carta.js`: renderiza cada carta individual.
+- `src/Componentes/Cartas.jsx`: controla o estado, as regras do jogo, dificuldade, tempo, recordes e ranking.
+- `src/Componentes/Carta.jsx`: renderiza cada carta individual.
 - `src/index.css`: estilos globais e diretivas do Tailwind.
 - `public/animais`: imagens usadas nas cartas.
-
