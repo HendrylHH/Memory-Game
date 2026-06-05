@@ -1,17 +1,22 @@
 # Jogo da Memória
 
-Um jogo da memória com tema de animais, feito em React. Este projeto nasceu como um estudo simples e foi refinado para ter uma apresentação mais limpa, responsiva e organizada para portfólio.
+Um jogo da memória com tema de animais, feito em React. Este projeto nasceu como um estudo simples e foi refatorado recentemente para ser mais responsivo e organizado.
 
 ## Preview
 
-O jogo exibe 16 cartas embaralhadas. O objetivo é encontrar todos os 8 pares com o menor número possível de movimentos.
+O jogo exibe cartas embaralhadas com o objetivo de encontrar todos os pares no menor número possível de movimentos e no menor tempo possível.
 
 ## Funcionalidades
 
+- Escolha de dificuldade: fácil, médio e difícil.
 - Cartas embaralhadas a cada novo jogo.
+- Cronômetro de partida.
 - Contador de movimentos.
 - Contador de pares encontrados.
+- Melhor pontuação salva localmente por dificuldade.
+- Ranking local com histórico de tentativas.
 - Feedback visual para acertos, erros e conclusão.
+- Popup final com resumo da partida, recorde, ranking e ações rápidas.
 - Bloqueio temporário durante a comparação de duas cartas.
 - Layout responsivo para desktop e mobile.
 - Interface acessível com botões, rótulos e foco visível.
@@ -21,6 +26,7 @@ O jogo exibe 16 cartas embaralhadas. O objetivo é encontrar todos os 8 pares co
 - React
 - Create React App
 - Tailwind CSS
+- LocalStorage
 
 ## Como rodar
 
@@ -48,13 +54,8 @@ O comando gera a versão otimizada na pasta `build`.
 
 ## Estrutura
 
-- `src/Componentes/Cartas.js`: controla o estado e as regras do jogo.
+- `src/Componentes/Cartas.js`: controla o estado, as regras do jogo, dificuldade, tempo, recordes e ranking.
 - `src/Componentes/Carta.js`: renderiza cada carta individual.
 - `src/index.css`: estilos globais e diretivas do Tailwind.
 - `public/animais`: imagens usadas nas cartas.
 
-## Próximos passos
-
-- Adicionar escolha de dificuldade.
-- Salvar melhor pontuação localmente.
-- Criar uma tela final com resumo da partida.
